@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.10.1"
+acceleration = { path = "../herculoid/src/acceleration/acceleration"}
+collision = { path = "../herculoid/src/collision/collision"}
+physics_manager = { path = "../herculoid/src/physicsManager/physics-manager"}
